@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Khoj-List</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,500;0,600;0,700;1,400&family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/responsive.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/e088578515.js" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+</head>
+<body class="bg-img mapfull">
+	<header class="header">
+		<div class="wrapper">
+			<div class="header-container">
+				<div class="logo"><img src="img/khojbrologoweb.png" alt="logo" /></div>
+				<div class="header-links">
+					<a href="#" class="login-link"><i class="fa-solid fa-user"></i>Login/Register</a>
+					<a href="#" class="post-link">Post Free Ads</a>
+				</div>
+				<button class="tgmenu">Menu</button>
+			</div>
+		</div>
+	</header>
+	<div class="mobile-menu">
+		<ul>
+			<li><a href="#">Login/Register</a></li>
+			<li><a href="#">Post Free Ads</a></li>
+		</ul>
+	</div>
+
+	<section class="section-search">
+		<div class="wrapper">
+			<div class="search-fields">
+				<div class="cities">
+					<input class="field-cities" type="text" placeholder="All Cities" />	
+				</div>
+				<div class="categories">
+					<input class="field-categories" type="text" placeholder="All categories" />
+				</div>
+				<div class="search-tag">
+					<input class="field-search-tag" type="text" placeholder="Search A Tag" />
+					<button type="submit" class="input-field-search" ><i class="fa-solid fa-magnifying-glass"></i>&nbsp; Search</button>	
+				</div>	
+			</div>
+		</div>
+	</section>
+
+	<section class="bread-crums">
+
+		<div class="wrapper">
+			<div class="bread-crums-links">
+				<ul>
+					<li class="home-arrow"><a href="#">Home <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+					<li class="searc-arrow"><a href="#">Search <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+					<li><a href="#">Categories</a></li>
+				</ul>
+			</div>
+		</div>
+
+	</section>
+
+<!-- -------NEW SECTION--------- -->
+
+	<section class="new-section">
+		
+		<section class="list-products list-page">
+			<div class="wrapper">
+				<div class="list-container">
+					<div class="show-results">
+						<h1>House for Rent in Delhi </h1>
+						<div class="result-txt">- 1,0000 Results</div>
+						<div class="select-box">
+							<select>
+								<option selected value="">Newest First</option>
+								<option value="">Oldest First</option>
+								<option value="">Price: Low to High</option>
+								<option value="">Price: High to Low</option>
+							</select>
+						</div>
+					</div>
+					<div class="list-box">
+						<div class="products-details">
+							<div class="select-box">
+								<select>
+									<option selected value="">Newest First</option>
+									<option value="">Oldest First</option>
+									<option value="">Price: Low to High</option>
+									<option value="">Price: High to Low</option>
+								</select>
+							</div>
+							<button class="fillterBtn">Filter Results <span>4,00,000</span></button>
+							<div class="clr"></div>
+							<div class="car-details-bg-color">
+								<div class="box-1 categories-list">
+									<div class="heading">Categories:</div>
+									<ul>
+									   <li>
+									      <a href="#" class="category-selected">
+									      All Categories
+									      <span class="count">
+									      </span>
+									      </a>
+									   </li>
+									   <ul>
+									      <li class="highlight highlight-l1-item">
+									         <a href="#">×</a>
+									         Jobs
+									         (38,496)
+									      </li>
+									      <ul>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Construction &amp; Trades
+									            <span class="count">
+									            (7,673)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            General Labour
+									            <span class="count">
+									            (7,432)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Drivers &amp; Security
+									            <span class="count">
+									            (4,635)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Other
+									            <span class="count">
+									            (4,107)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Bar, Food &amp; Hospitality
+									            <span class="count">
+									            (2,780)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Office Manager &amp; Receptionist
+									            <span class="count">
+									            (1,930)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Accounting &amp; Management
+									            <span class="count">
+									            (1,603)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Healthcare
+									            <span class="count">
+									            (1,528)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Sales &amp; Retail Sales
+									            <span class="count">
+									            (1,455)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Customer Service
+									            <span class="count">
+									            (1,294)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Cleaning &amp; Housekeeping
+									            <span class="count">
+									            (1,131)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Part Time &amp; Students
+									            <span class="count">
+									            (893)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Programmers &amp; Computer
+									            <span class="count">
+									            (737)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Child Care
+									            <span class="count">
+									            (504)
+									            </span>
+									            </a>
+									         </li>
+									         <li>
+									            <a href="#" class="category-selected l2-item">
+									            Hair Stylist &amp; Salon
+									            <span class="count">
+									            (469)
+									            </span>
+									            </a>
+									         </li>
+									         <li class="jshidden collapse-filter">
+									            <a href="#" class="category-selected l2-item">
+									            TV, Media, &amp; Fashion
+									            <span class="count">
+									            (164)
+									            </span>
+									            </a>
+									         </li>
+									         <li class="jshidden collapse-filter">
+									            <a href="#" class="category-selected l2-item">
+									            Graphic &amp; Web Design
+									            <span class="count">
+									            (133)
+									            </span>
+									            </a>
+									         </li>
+									         <li class="jshidden collapse-filter">
+									            <a href="#" class="category-selected l2-item">
+									            Cannabis Sector
+									            <span class="count">
+									            (28)
+									            </span>
+									            </a>
+									         </li>
+									         <li class="view-more collapsing-filter jsonly"><a href="javascript:void(0)">View more options...</a></li>
+									      </ul>
+									   </ul>
+									</ul>
+								</div>
+								<div class="box-1 locations">
+									<div class="heading">Location:</div>
+									<ul role="group" aria-labelledby="location-menu">
+									   <li>
+									      <a href="#" data-id="9003" data-event="ChangeLocation" class="location-selected l1-item">
+									      Alberta
+									      <span class="count">
+									      (501,858)
+									      </span>
+									      </a>
+									   </li>
+									   <li>
+									      <a href="#" class="location-selected l1-item">
+									      British Columbia
+									      <span class="count">
+									      (65,447)
+									      </span>
+									      </a>
+									   </li>
+									   <li>
+									      <a href="#" class="location-selected l1-item">
+									      Manitoba
+									      <span class="count">
+									      (175,594)
+									      </span>
+									      </a>
+									   </li>
+									   <li>
+									      <a href="#" class="location-selected l1-item">
+									      New Brunswick
+									      <span class="count">
+									      (46,129)
+									      </span>
+									      </a>
+									   </li>
+									   <li>
+									      <a href="#" class="location-selected l1-item">
+									      Newfoundland
+									      <span class="count">
+									      (12,191)
+									      </span>
+									      </a>
+									   </li>
+									   <li>
+									      <a href="#" class="location-selected l1-item">
+									      Nova Scotia
+									      <span class="count">
+									      (89,051)
+									      </span>
+									      </a>
+									   </li>
+									   <li>
+									      <a href="#" class="location-selected l1-item">
+									      Ontario
+									      <span class="count">
+									      (1,951,238)
+									      </span>
+									      </a>
+									   </li>
+									   <li>
+									      <a href="#" class="location-selected l1-item">
+									      Prince Edward Island
+									      <span class="count">
+									      (9,347)
+									      </span>
+									      </a>
+									   </li>
+									   <li>
+									      <a href="#" class="location-selected l1-item">
+									      Québec
+									      <span class="count">
+									      (765,694)
+									      </span>
+									      </a>
+									   </li>
+									   <li>
+									      <a href="#" class="location-selected l1-item">
+									      Saskatchewan
+									      <span class="count">
+									      (76,752)
+									      </span>
+									      </a>
+									   </li>
+									   <li>
+									      <a href="#" class="location-selected l1-item">
+									      Territories
+									      <span class="count">
+									      (1,326)
+									      </span>
+									      </a>
+									   </li>
+									</ul>
+								</div>
+								<div class="box-1 locations">
+									<div class="heading">Price:</div>
+									<div class="update-price">
+										<div class="input-bx-1">
+											<label for="">From</label>
+											<input type="text">
+										</div>
+										<div class="input-bx-1">
+											<label for="">To</label>
+											<input type="text">
+										</div>
+										<div class="input-bx-1">
+											<input type="submit" value="Update">
+											<div class="spinner"><i class="fa fa-spinner fa-spin fa-1x fa-fw"></i></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="products-links">
+							<div class="property-links">
+								<div class="link-container">
+									<a href="#">
+										<h3>4 Bed Property close to Luton Town Center By Best Services nad</h3>
+										<div class="luton-town">
+											<div class="product-img">
+												<img src="img/property-1.jpg" alt="" />
+												<span class="room-pictures">
+													<i class="fa-solid fa-camera"></i> 11
+												</span>
+											</div>
+											<div class="product-text">
+												<div class="itemp-prices"><i class="fa-solid fa-indian-rupee-sign"></i> 10,50,000</div>
+												<div class="location-gurgaon"><i class="fa-solid fa-location-dot"></i> Gurgaon | 10/08/22</div>
+												<p>Room come with a Bed, Dresser and Table. Sh common area Kitchen on the sec common area kitchen on the second floor paid.</p>
+												<div class="room-sizes">
+													<ul>
+														<li>2 Bds |&nbsp;</li>
+														<li>1Ba |&nbsp;</li>
+														<li>560 ft2 |&nbsp;</li>
+														<li>3 WC</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<div class="link-container">
+									<a href="#">
+										<h3>2006 Sheet Alhambra 1.9 TDI Automatic - New Mot B</h3>
+										<div class="luton-town">
+											<div class="product-img">
+												<img src="img/Maruti.jpg" alt="" />
+												<span class="room-pictures">
+													<i class="fa-solid fa-camera"></i>11
+												</span>
+											</div>
+											<div class="product-text">
+												<div class="itemp-prices"><i class="fa-solid fa-indian-rupee-sign"></i> 10,50,000</div>
+												<div class="location-gurgaon"><i class="fa-solid fa-location-dot"></i> Gurgaon | 10/08/22</div>
+												<p>Room come with a Bed, Dresser and Table. Sh common area Kitchen on the sec common area kitchen on the second floor paid.</p>
+												<div class="room-sizes">
+													<ul>
+														<li>2002 |&nbsp;</li>
+														<li>38,000 km |&nbsp;</li>
+														<li>Petrol |&nbsp;</li>
+														<li>2,494 cc</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<div class="link-container">
+									<a href="#">
+										<h3>Luton Town Center By Best Luton Town Center By Best services</h3>
+										<div class="services-price"><i class="fa-solid fa-indian-rupee-sign"></i> 15000 - 35000 Weekly | Full Time</div>
+										<div class="luton-town">
+											<div class="product-text-2">
+												<div class="itemp-prices"><i class="fa-solid fa-indian-rupee-sign"></i> 10,50,000</div>
+												<div class="location-gurgaon"><i class="fa-solid fa-location-dot"></i> Gurgaon | 10/08/22</div>
+												<p>Room come with a Bed, Dresser and Table. Sh common area Kitchen on the sec common area kitchen on the second floor paid.</p>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<div class="link-container">
+									<a href="#">
+										<h3>Luton Town Center By Best Luton Town Center By Best Services</h3>
+										<div class="luton-town">
+											<div class="product-img">
+												<img src="img/property-1.jpg" alt="" />
+												<span class="room-pictures">
+													<i class="fa-solid fa-camera"></i>11
+												</span>
+											</div>
+											<div class="product-text">
+												<div class="itemp-prices"><i class="fa-solid fa-indian-rupee-sign"></i> 10,50,000</div>
+												<div class="location-gurgaon"><i class="fa-solid fa-location-dot"></i> Gurgaon | 10/08/22</div>
+												<p>Room come with a Bed, Dresser and Table. Sh common area Kitchen on the sec common area kitchen on the second floor paid.</p>
+												<div class="room-sizes">
+													<ul>
+														<li>British Shorthai |&nbsp;</li>
+														<li>Age:5 weeks |&nbsp;</li>
+														<li>Ready to leave: in 3 weeks</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="link-container">
+									<a href="#">
+										<h3>Luton Town Center By Best Luton Town Center By Best Services</h3>
+										<div class="luton-town">
+											<div class="product-img">
+												<img src="img/maxresdefault.jpg" alt="" />
+												<span class="room-pictures">
+													<i class="fa-solid fa-camera"></i>11
+												</span>
+											</div>
+											<div class="product-text">
+												<div class="location-gurgaon"><i class="fa-solid fa-location-dot"></i> Gurgaon | 10/08/22</div>
+												<p>Room come with a Bed, Dresser and Table. Sh common area Kitchen on the sec common area kitchen on the second floor paid.</p>
+												<div class="age25">Age: 25 years</div>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<div class="pages-container">
+									<button class="prev" disabled>
+										<i class="fa fa-chevron-left" aria-hidden="true"></i>
+										Previous
+									</button>
+									<div class="pages-number">
+										<ul>
+											<li class="active"><a href="#">1</a></li>
+											<li><a href="#">2</a></li>
+											<li><a href="#">3</a></li>
+											<li><a href="#">4</a></li>
+											<li><a href="#">5</a></li>
+											<li><a href="#">6</a></li>
+											<li><a href="#">7</a></li>
+											<li><a href="#">8</a></li>
+											<li><a href="#">9</a></li>
+											<li><a href="#">10</a></li>
+										</ul>
+									</div>
+									<button class="next">
+										Next
+										<i class="fa fa-chevron-right" aria-hidden="true"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>		
+
+		<section class="section-more">
+			<div class="wrapper">
+				<div class="more-option">
+					<div class="location-heading"><span>Find out</span> More</div>
+					<div class="market-heding">
+						<h2 class="more-title">MARKET</h2>
+						<h4>Cat - Golden retriever - French bulldog - Dogs - Border collie - Labrador - Pitbull - Folding bike - Folding electric bike - Used racing bike - Pedal assisted bicycle - Bike accessories - Used exercise bike - Ikea cabinets - Ikea shelves - Poltrona frau - School library - Used chairs - Used mobile phones - Used iPhones -Used smartphones - Used mobile phones Milan</h4>
+					</div>
+					<div class="market-properties">
+						<h2 class="more-title">PROPERTIES</h2>
+						<h4>Houses for sale - Houses for rent - Houses for sale Bolzano - Rent to buy - Rent Rome - Rent Milan - Houses for sale Genoa - Houses for sale Bologna - Rentals Turin - Studio apartment for rent Milan - Houses for sale Lodi - Rentals Palermo - Rentals Bolzano - Apartments for sale Milan - Rent Genoa - Apartments for sale in Palermo - Apartments for sale Rome - Rent Naples- Apartments for sale in Turin - Houses for sale in central Naples</h4>
+					</div>
+					<div class="market-work">
+						<h2 class="more-title">WORK</h2>
+						<h4 class="work-para">Job offers - Summer season - Job Rome - Work from home - Job offers Turin - Job Milan - Job Palermo - Job offers Bergamo - Job Bologna - Job Naples - Online job - Social health worker - Gas station - Bricklayer - Job Lecco - Job Pisa - Receptionist - Part time job - Real estate agent -Administrative assistant - Carpenter - Representative - Housekeeping - Steward - Assembly line - Secretary - Part time job Rome - Coachbuilder - Barista - Worker - Waiter - Part time job Milan - Cohabitant caregiver - Baby sitter Milan - Nanny Rome - House maid - Internship Milan - Caregiver Milan - Internship Turin</h4>
+					</div>
+
+				</div>
+			</div>
+		</section>	
+
+		<footer>
+			<div class="ft-bg-color">
+				<div class="wrapper">
+					<div class="social-links">
+						<ul>
+							<li class="social-text">Follow Us</li>
+							<li><a href="#"><img src="img/facebook.png" alt=""></a></li>
+							<li><a href="#"><img src="img/facebook-chat.png" alt=""></a></li>
+							<li><a href="#"><img src="img/insta.png" alt=""></a></li>
+						</ul>
+					</div>
+					<div class="compay-conditions">
+						<ul>
+							<li><a href="#">Terms & Conditions</a></li>
+							<li class="policy"><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Cookies Policy</a></li>
+						</ul>
+					</div>
+					<div class="copy-right">
+						<p>Copyright 2022 Khoj Bro</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</section>
+		
+	<script src="js/script.js"></script>
+</body>
+</html>

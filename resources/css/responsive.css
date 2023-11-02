@@ -1,0 +1,215 @@
+@media only screen and (max-width: 1218px) {
+  .wrapper{padding: 0 15px;width: auto}
+  .header-links{width: 38%;}
+  .banner-card{width: 21%;}
+  .banner-ads{width: 37%;}
+  .content-box .sec-1-text{font-size: 65px;}
+  .pages-container{flex-direction: column;gap: 20px}
+  .social-flex-box{flex-wrap: wrap;}
+  .social-link{margin-bottom: 15px;}
+}
+
+@media only screen and (max-width: 1021px){
+  .detail-bg-color > .details-flex-box{flex-wrap: wrap;}
+  .details-container{width: 100%}
+  .contact-conatiner{width: 100%}
+  .contact-conatiner{margin-top: 0}
+}
+@media only screen and (min-width: 980px){
+  .car-details-bg-color{display: block;}
+}
+@media only screen and (max-width: 979px){
+  .header-links{width: 50%;}
+  .banner-container{flex-wrap: wrap;}
+  .company-product{width: 100%;flex: 0 0 100%;}
+  .banner-ads{width:100%;flex: 0 0 100%;}
+  .ads-links{padding-top: 40px;}
+  .ads-links{margin: auto}
+  .search-fields{position: relative;}
+  .search-tag{position: static;}
+  .input-field-search{margin: auto;left: 0;bottom: -150px}
+  .field-search-tag{width: 98%}
+  .cities{width: 30%}
+  .categories{width: 30%;}
+  .search-tag{width: 40%}
+  .content-box .sec-1-text{padding-top: 0;}
+  .main-container{align-items: start;margin-top: 126px;}
+  .padding-tp{padding-top: 0;}
+  .banner-container{margin-top: 50px}
+  .compay-conditions ul{column-gap: 20px;}
+  .compay-conditions ul li{font-size: 16px}
+  .policy::before {
+    width: 1px;
+    top: 3px;
+    left: -10px;
+    height: 20px;
+}
+.m-l-30
+{
+/* margin-left: 45%; */
+}
+  .policy::after{
+    top: 3px;
+    right: -10px;
+    height: 20px;
+    width: 1px;
+  }
+  .social-links .social-text{font-size: 18px;}
+  .acc__title:before{top: 13px;}
+  .acc__title:after{top: 21px;}
+  .post-container-flex{flex-wrap: wrap;}
+  .post-ads-container{padding-top: 35px;margin: auto;max-width: 340px}
+  .border-container{margin-bottom: 0}
+  .section-post-ad{padding-top: 100px;}
+  .post-select-box select{border: 1px solid #ccc}
+  .inerWhite{max-width: inherit;}
+  .fillterBtn{display: block;}
+  .car-details-bg-color{display: none;}
+  .list-box {
+    flex-wrap: wrap;
+    gap: 0;
+}
+.products-links {
+  margin-top: 0;
+}
+  .products-details, .products-links{width: 100%;}
+  .bread-crums{margin-top: 80px;}
+  .fillterBtn{
+    border: 0;
+    display: block;
+    width: auto;
+    line-height: 45px;
+    background: #e65c00;
+    border-radius: 5px;
+    color: #fff;
+    text-align: left;
+    padding: 0 30px 0 20px;
+    float: left;
+  }
+  .show-results .select-box{display: none;}
+  .products-details .select-box{float: right;margin-top: 0;display: block;height: 45px;border: 1px solid #ccc;}
+  .car-details-bg-color{position: absolute;top: 84%;left: 0;width: 100%;z-index: 15;}
+  .products-details{position: relative;}
+}
+
+@media only screen and (max-width: 767px){
+  .section-search{margin-top: 85px;}
+  .header-container{padding-top: 15px;}
+  .header-links{width: 67%;}
+  .logo img{width: 170px;}
+  .search-fields{margin-top: 0;}
+  .search-fields{background: none;height: auto;box-shadow: none;flex-wrap: wrap;}
+  .field-categories{border: 0;background-position: 17px 50%;padding-left: 50px;}
+  .field-search-tag{width: 100%}
+  .cities, .categories, .search-tag{height: 55px;width: 100%;margin-bottom: 15px;}
+  .cities input, .categories input, .search-tag input{background-color: #fff;border-radius: 22px;box-shadow: 0px 2px 7px rgb(0 0 0 / 30%);}
+  .search-tag{position: relative;}
+  .input-field-search{bottom: -145px;}
+  .main-container{margin-top: 100px;flex-wrap: wrap;}
+  .content-box{width: 100%;}
+  .img-box{width: 100%}
+  .content-box .sec-1-text{font-size: 50px;}
+  .pages-number ul li:nth-child(6), .pages-number ul li:nth-child(7), .pages-number ul li:nth-child(8), .pages-number ul li:nth-child(9), .pages-number ul li:nth-child(10){display: none;}
+  .product-text{padding-right: 0;}
+  .form-container-flex{
+    flex-direction: column;
+  }
+  .view-prdt-link {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .product-img {
+    width: 100%;
+  }
+  .form-left-side {
+    max-width: 100%;
+  }
+  .custom-pop .form-popup {
+    max-width: 100%;
+    width: 90%;
+  }
+  .input-width {
+    width: 100% !important;
+  }
+  .dash-search-product {
+    display: block;
+  }
+  .custom-select.all-ads-dropdown {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .input-width.phone-num-input {
+    width: 85% !important;
+  }
+}
+@media only screen and (max-width: 639px){
+  .header-links{display: none;}
+  .row-changes{margin-top: 0;}
+  .banner-card{width: 28%;margin-bottom: 30px;}
+  .location-heading{font-size: 27px;}
+  .more-option .more-title{font-size: 23px;}
+  .more-option h4{font-size: 20px;}
+  .car-category{flex-wrap: wrap;}
+  .car-category label{margin-bottom: 15px;}
+  .ads-inputp-field{width: 100%}
+  .tel-container{width: 70%}
+  .price{width: 100%}
+  .ads-inputp-field.square-bx{width: 90%}
+  .section-forgot-password, .section-loging-page{padding-left: 15px;padding-right: 15px}
+  .tgmenu{display: block;position: absolute;top: 10px;right: 15px;width: 42px;height: 37px;background: url(../img/menuBtn.svg);border: 0;text-indent: -9999px;overflow: hidden;z-index: 101;transition: all 1s ease-in-out;}
+  .tgmenu.active{background-image: url(../img/crossbtn.svg); top:25px}
+  .mobile-menu{
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    /* height: 100%; */
+    z-index: 100;
+    padding: 0px 0 40px 0;
+    transform: translateY(-100%);
+    transition: all 1s ease-in-out;
+  }
+  .serach_btn {
+    display: block;
+  }
+  .mobile-menu.open{
+    transform: translateY(0px);
+  }
+  .mobile-menu ul li{
+    margin-bottom: 2px;
+  }
+  .mobile-menu ul li a{display: block;color: #10404f;line-height: 45px;padding: 0 20px;}
+  .mobile-menu ul li a:hover{background-color: #10404f; color: white;}
+  .overflowBody{overflow: hidden;}
+}
+@media only screen and (max-width: 500px){
+  .advertisment-container{flex-wrap: wrap;}
+  .advertisment-screen{width: 100%}
+  .slider-box{width: 100%}
+  .advertisment-screen img{height: 280px;}
+  .slider .item{padding: 0 15px}
+  .slider .slick-prev{top: 50%;left: -20px;right: inherit;transform: rotate(-90deg);margin-top: -17px;}
+  .slider .slick-next{top: 50%;right:-3px;transform: rotate(-90deg);margin-top: -17px;}
+  .slider-box{padding: 20px}
+}
+@media only screen and (max-width: 479px){
+  .banner-card{width:45%;}
+  .compay-conditions ul li{font-size: 14px}
+  .products-details .select-box{float: none;margin-top: 0;margin-bottom: 20px;}
+  .products-details .select-box select{width: 100%;}
+  .fillterBtn{float: none;width: 100%}
+  .luton-town{flex-wrap: wrap;justify-content: normal;}
+  .product-text{width: 100%;padding-top: 15px}
+  .pages-number{display: none;}
+}
+@media only screen and (max-width: 370px){
+ .view-prdt-link {
+    flex-direction: column !important;
+  }
+  .banner-card{width:45%;}
+}
+@media only screen and (max-width: 359px){
+  .banner-card{width:40%;}
+}
