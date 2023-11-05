@@ -38,7 +38,7 @@
         <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=64674a49e298d600199b3f0f&product=sop' async='async'></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     @livewireStyles
-    <link rel="stylesheet" type="text/css" href="{{ config('global_variables.asset_url') }}/css/slick.css" />
+   <link rel="stylesheet" type="text/css" href="{{ config('global_variables.asset_url') }}/css/slick.css" />
     <link rel="stylesheet" href="{{ config('global_variables.asset_url') }}/css/style.css" />
     <link rel="stylesheet" href="{{ config('global_variables.asset_url') }}/css/responsive.css" />
     @yield('headend')
