@@ -127,11 +127,11 @@ img {
 	align-items: center;
 	justify-content: center;
 	font-family: 'Archivo Narrow', sans-serif;
-	background-color: #e65c00;
+	background-color: #ff8282;
 	padding: 8px 22px 8px 45px;
 	border-radius: 30px;
 	color: #fff;
-	background: url(../img/top-icn.png) no-repeat 16% 50%, #e65c00;
+	background: url(../img/top-icn.png) no-repeat 16% 50%, #ff8282;
 	background-size: 20px;
 	font-size: 18px;
 	box-shadow: 2px 2px 3px rgb(0 0 0 / 30%);
@@ -332,7 +332,7 @@ img {
 }
 
 .content-box .sec-1-text .break-text {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .content-box .sec-1-text .q-symbol {
@@ -341,7 +341,7 @@ img {
 	left: 451px;
 	height: 100%;
 	width: 100%;
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .sec-1-para {
@@ -403,7 +403,7 @@ img {
 }
 
 .banner-card a:hover .banner-card-titles {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .banner-card .banner-card-titles {
@@ -617,7 +617,7 @@ img {
 
 .more-option .more-title {
 	font-size: 21px;
-	color: #e65c00;
+	color: #ff8282;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -645,7 +645,7 @@ img {
 
 .more-option .more-sub-title {
 	font-size: 30px;
-	color: #e65c00;
+	color: #ff8282;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -821,7 +821,7 @@ img {
 }
 
 .bread-crums-links i:hover {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 /*------list-products------*/
@@ -903,7 +903,7 @@ img {
 }
 
 .box-1 ul li a:hover {
-	color: #e65c00
+	color: #ff8282
 }
 
 .box-1 li.view-more a {
@@ -1263,7 +1263,7 @@ label {
 }
 
 .location-gurgaon i {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .items-details {
@@ -1464,16 +1464,16 @@ button[disabled] {
 }
 
 .view-details ul li a:hover {
-	/* color: #e65c00; */
+	/* color: #ff8282; */
 	transition: 0.5s;
 }
 
 .view-details i {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .view-details i:hover {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .view-details-link {
@@ -1861,7 +1861,7 @@ button[disabled] {
 }
 
 .btn-submit-mail:hover {
-	background: #e65c00;
+	background: #ff8282;
 }
 
 .mail-section {
@@ -1876,8 +1876,8 @@ button[disabled] {
 
 .mail-section h5 span,
 .contact-with h5 span {
-	color: #e65c00;
-	border-bottom: 1px solid #e65c00
+	color: #ff8282;
+	border-bottom: 1px solid #ff8282
 }
 
 .stay-safe .safe_icon {
@@ -2006,7 +2006,7 @@ button[disabled] {
 	line-height: 50px;
 	width: 100%;
 	color: #fff;
-	background: #e65c00;
+	background: #ff8282;
 }
 
 .cancel {
@@ -2105,7 +2105,7 @@ button[disabled] {
 	border: none;
 	width: 100%;
 	line-height: 45px;
-	background: #e65c00;
+	background: #ff8282;
 	color: #fff;
 	font-size: 18px;
 }
@@ -2230,7 +2230,7 @@ button[disabled] {
 .border-container h5 {
 	padding-left: 0;
 	padding-bottom: 30px;
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .post-title {
@@ -2297,7 +2297,7 @@ button[disabled] {
 }
 
 .btn-register {
-	background: #e65c00;
+	background: #ff8282;
 }
 
 /*---------show-result--------*/
@@ -2507,8 +2507,8 @@ button[disabled] {
 }
 
 .car-category input[type="checkbox"]:checked+label {
-	background: #e65c00;
-	border-color: #e65c00;
+	background: #ff8282;
+	border-color: #ff8282;
 	color: #fff;
 }
 
@@ -2833,7 +2833,7 @@ button[disabled] {
 
 .txt-lmt {
 	font-size: 14px;
-	color: #e65c00;
+	color: #ff8282;
 	float: right;
 	margin-top: 15px;
 	margin-right: 50px;
@@ -3058,7 +3058,7 @@ button[disabled] {
 }
 
 .dash-login-box:hover .admin-name {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .dash-login-box:hover .admin-name svg {
@@ -3136,7 +3136,7 @@ button[disabled] {
 	font-size: 18px;
 	padding-left: 20px;
 	color: #fff;
-	background: #E65C00;
+	background: #ff8282;
 	transition: 0.3s;
 	/* display: flex; */
 	/* align-items: center; */
@@ -3146,11 +3146,11 @@ button[disabled] {
 /* .profile-links1.active-link {
     background-color: #00242f;
     color: #fff;
-    border-left: 5px solid #e65c00;
+    border-left: 5px solid #ff8282;
 } */
 .profile-links1:hover,
 .profile-links1.active-link:hover {
-	background: #E65C00;
+	background: #ff8282;
 	color: #fff;
 }
 
@@ -3171,7 +3171,7 @@ button[disabled] {
 .profile-links.active-link {
 	background-color: #00242f;
 	color: #fff;
-	border-left: 5px solid #e65c00;
+	border-left: 5px solid #ff8282;
 }
 
 .profile-links:hover,
@@ -3182,13 +3182,13 @@ button[disabled] {
 
 
 .my-account {
-	color: #e65c00;
+	color: #ff8282;
 	font-size: 18px;
 	padding: 10px 0;
 }
 
 .my-account a {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .my-account span {
@@ -3426,7 +3426,7 @@ button[disabled] {
 	text-align: center;
 	height: 40px;
 	width: 100%;
-	background: #e65c00;
+	background: #ff8282;
 	margin: 15px auto 0;
 	color: #fff;
 	line-height: 40px;
@@ -3452,7 +3452,7 @@ button[disabled] {
 	display: inline-block;
 	text-align: center;
 	height: 40px;
-	background: #e65c00;
+	background: #ff8282;
 	margin: 15px auto 0;
 	color: #fff;
 	line-height: 40px;
@@ -3805,7 +3805,7 @@ input {
 }
 
 .list-container .bread-crums a:hover {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .upload-image .photo-accept p {
@@ -4009,7 +4009,7 @@ input {
 
 .form-popup form.form-container h2 {
 	text-align: center;
-	color: #e65c00;
+	color: #ff8282;
 	font-size: 20px;
 	font-family: 'Archivo Narrow', sans-serif;
 	margin-bottom: 15px;
@@ -4052,7 +4052,7 @@ input {
 
 .form-popup form.form-container h4 a {
 	margin-left: auto;
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .resend_link {
@@ -4061,7 +4061,7 @@ input {
 }
 
 .resend_link a {
-	color: #e65c00;
+	color: #ff8282;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -4464,7 +4464,7 @@ input {
 }
 
 .model-btn button:hover {
-	background-color: #E65C00;
+	background-color: #ff8282;
 }
 
 .teliphon_btn {

@@ -24,7 +24,7 @@ class CreateNewUser implements CreatesNewUsers
        // dd($input);
         Validator::make($input, [
             'name' => ['required', 'string', 'max:255'],
-            'phone' => ['required', 'regex:/^[6-9]\d{9}$/'],
+            // 'phone' => ['required', 'regex:/^[6-9]\d{9}$/'],
             'email' => [
                 'required',
                 'string',
@@ -37,7 +37,7 @@ class CreateNewUser implements CreatesNewUsers
             'password' => $this->passwordRules(),
         ], [
 
-            'phone.regex' => "Phone number must be valid number.",
+            // 'phone.regex' => "Phone number must be valid number.",
             'tnc.required' => "Please check term & condition."
         ])->validate();
 

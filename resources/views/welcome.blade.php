@@ -3,37 +3,42 @@
 @endsection
 @section('bodyclass', 'bg-img')
 @section('content')
-    <livewire:shared.search-post key="search-post-{{ now()->timestamp }}" />
-    <section class="sec-1 bg-olor">
-        <div class="wrapper">
-            <div class="main-container">
-                <div class="content-box">
-                    <h1 class="sec-1-text">Find Anything <br /> <span class="break-text">Around You</span></h1>
-                    <p class="sec-1-para">Buy.&nbsp;Sell.&nbsp;Rent</p>
-                </div>
-                <div class="img-box">
-                    <img src="{{ config('global_variables.asset_url') }}/img/banner-img.png" alt="" />
+<livewire:shared.search-post key="search-post-{{ now()->timestamp }}" />
+<section class="sec-1 bg-olor">
+    <div class="wrapper">
+        <div class="main-container">
+            <div class="content-box">
+                <h1 class="sec-1-text">
+                    <span>Discover The</span><br />
+                    <span class="break-text">World </span><br />
+                    <span class="break-text">Around You</span>
+                </h1>
+                <p class="sec-1-para">Buy.&nbsp;Sell.&nbsp;Rent</p>
+            </div>
+            <div class="img-box">
+                <img src="{{ config('global_variables.asset_url') }}/img/banner-img.webp" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section-banner padding-tp">
+    <div class="wrapper">
+        <div class="banner-container">
+            <livewire:home.category-list key="find-out-more -{{ now()->timestamp }}" />
+            <div class="banner-ads">
+                <div class="ads-links">
+                    <img class='d-none' src="{{ config('global_variables.asset_url') }}/img/adds-new.jpg"
+                        alt="computer" />
                 </div>
             </div>
         </div>
-    </section>
-    <section class="section-banner padding-tp">
-        <div class="wrapper">
-            <div class="banner-container">
-                <livewire:home.category-list key="find-out-more -{{ now()->timestamp }}" />
-                <div class="banner-ads">
-                    <div class="ads-links">
-                        <img class='d-none' src="{{ config('global_variables.asset_url') }}/img/adds-new.jpg" alt="computer" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <livewire:home.location-list key="location-list-{{ now()->timestamp }}" />
-    <section class="section-more">
-        <div class="wrapper">
-            <div class="more-option">
-                {{-- <div class="location-heading"><span>Find out</span> More</div>
+    </div>
+</section>
+<livewire:home.location-list key="location-list-{{ now()->timestamp }}" />
+<section class="section-more">
+    <div class="wrapper">
+        <div class="more-option">
+            {{-- <div class="location-heading"><span>Find out</span> More</div>
                 <div class="engine">
                     <h2 class="more-title">Engines</h2>
                     <h4>Used cars - Used motorcycles - Used electric cars - Used hybrid cars - Used diesel cars - Ford -
@@ -61,10 +66,10 @@
                     <h4 class="audi-para">Audi A1 - Audi A3 - Audi Q3 - Audi TT - Audi Q5 - Audi A4 - Audi Q2 - Audi A5
                         - Audi A6 - Audi Q3 Sportback</h4>
                 </div> --}}
-                <livewire:shared.find-out-more />
-            </div>
+            <livewire:shared.find-out-more />
         </div>
-    </section>
+    </div>
+</section>
 @endsection
 @section('bodyend')
 @endsection

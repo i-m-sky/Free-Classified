@@ -11,13 +11,13 @@
     @hasSection('metatags')
         @yield('metatags')
     @else
-        <title>{{ isset($row) ? str_replace('@location', $location, $row->meta_title) : 'Khojbro' }}</title>
+        <title>{{ isset($row) ? str_replace('@location', $location, $row->meta_title) : 'Adpost' }}</title>
         <meta name="description"
-            content="{{ isset($row) ? str_replace('<br />', ' ', str_replace('@location', $location, $row->meta_description)) : 'Khojbro' }}" />
+            content="{{ isset($row) ? str_replace('<br />', ' ', str_replace('@location', $location, $row->meta_description)) : 'Adpost' }}" />
         <meta name="keywords"
-            content="{{ isset($row) ? str_replace('<br />', ' ', str_replace('@location', $location, $row->meta_keyword)) : 'Khojbro' }}" />
+            content="{{ isset($row) ? str_replace('<br />', ' ', str_replace('@location', $location, $row->meta_keyword)) : 'Adpost' }}" />
         <meta property="og:title"
-            content="{{ isset($row) ? str_replace('@location', $location, $row->meta_title) : 'Khojbro' }}">
+            content="{{ isset($row) ? str_replace('@location', $location, $row->meta_title) : 'Adpost' }}">
     @endif
 
     <meta property="og:type" content="website">
@@ -29,7 +29,7 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css'>
     
     
-    <link rel="icon" type="image/x-icon" href="https://khojbro.com/public/img/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" width="32px" height="32px"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link
@@ -40,6 +40,7 @@
     @livewireStyles
    <link rel="stylesheet" type="text/css" href="{{ config('global_variables.asset_url') }}/css/slick.css" />
     <link rel="stylesheet" href="{{ config('global_variables.asset_url') }}/css/style.css" />
+    <link rel="stylesheet" href="{{ config('global_variables.asset_url') }}/css/theme.css" />
     <link rel="stylesheet" href="{{ config('global_variables.asset_url') }}/css/responsive.css" />
     @yield('headend')
 </head>

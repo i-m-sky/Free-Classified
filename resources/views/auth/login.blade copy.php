@@ -3,15 +3,15 @@
 @endsection
 @section('bodyclass', 'bg-img mapfull')
 @section('content')
-    <section id="login">
-        <div class="login-container container bg-white rounded-3 p-sm-3">
+    <section class="section-loging-page">
+        <div class="login-container">
             <h3 class="login-title">Login</h3>
             <div class="login-form-container">
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
                     <div class="sec-mail inpt-flid">
                         <label class="login-label-mail" for="email">Email</label>
-                        <input class="w-100 rounded p-2 border login-mail @error('email') is-invalid @enderror" type="email" id="email"
+                        <input class="login-mail @error('email') is-invalid @enderror" type="email" id="email"
                             name="email" placeholder="Email" value="{{ old('email') }}" required autocomplete="email"
                             autofocus />
                         @error('email')
@@ -20,8 +20,8 @@
                     </div>
                     <div class="inpt-flid-pws">
                         <label class="login-password-mail" for="password">Password</label>
-                        <div class="d-flex border rounded login-password-flex">
-                            <input id="passInput" class="w-100 rounded p-2 border-0 login-password @error('password') is-invalid @enderror"
+                        <div class="login-password-flex">
+                            <input id="passInput" class="login-password @error('password') is-invalid @enderror"
                                 type="password" name="password" placeholder="Password" required
                                 autocomplete="current-password" />
                             <span id="btn-show" class="btn-show">Show</span>

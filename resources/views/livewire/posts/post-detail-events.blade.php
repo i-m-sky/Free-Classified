@@ -10,7 +10,7 @@
                 </a>
                 @if (isset($post['phone']) && $post['isWhatsApp'] == 1)
                     <a class="whats-app-handle" @if ($whatsAppNumber == 'Whatsapp') wire:click="showWhatsApp" @endif
-                        href="https://api.whatsapp.com/send?phone=+91{{ str_replace('-', '', $post['user']['phone']) }}&text={{ urlencode('Hi I saw your Ad on KhorBro' . $post['name'] . '') }}"
+                        href="https://api.whatsapp.com/send?phone=+91{{ str_replace('-', '', $post['user']['phone']) }}&text={{ urlencode('Hi I saw your Ad on Ad Post' . $post['name'] . '') }}"
                         target="_blank">
                         <i class="fa-brands fa-whatsapp"></i>
                         {{ $whatsAppNumber }}

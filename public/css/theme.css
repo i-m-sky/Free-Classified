@@ -1,0 +1,22 @@
+/* __________________Theme__________________ */
+
+.creamRed {
+    color: #ff8282;
+}
+.creamRedBG {
+    background: #ff8282;
+}
+.bg-img {
+	background: url(../img/mapimg.jpg) no-repeat 0 -34px;
+	background-size: cover;
+}
+
+/* __________________Register__________________ */
+
+.password-strength li.active {
+    display: none;
+}
+#login,
+#register {
+    padding: 150px 0 90px;
+  }
