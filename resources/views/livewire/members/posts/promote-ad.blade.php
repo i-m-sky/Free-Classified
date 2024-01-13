@@ -5,7 +5,7 @@
                 <div class="products-links mt-0">
                     <div class="d-flex bg-white border-2 border rounded-top py-2 pb-0 resIcon  ">
                         <div class="col-3 col-sm-1 col-md-1 text-center promote-hignlight-icn">
-                            <img src="/public/img/svg/topAd/top_ad_khojbro_100_100.svg" alt="" class="p-2 w-65">
+                            <img src="/public/img/svg/topAd/top_ad_adpost_100_100.svg" alt="" class="p-2 w-65">
                         </div>
                         <div class="col-9 col-sm-11 col-md-11 promote-hignlight-icn2">
                             <p class="proAdTitle pl-2">Top Ad <span class="notmobBtn">- </span><a href="javascript:void(0)" class="topAdModal notmobBtn" wire:model.defer="topAdModal"
@@ -43,7 +43,7 @@
                     </div>
                     <div class="d-flex bg-white border-2 border rounded-top py-2 pb-0 resIcon ">
                         <div class="col-3 col-sm-1 col-md-1 text-center promote-hignlight-icn">
-                            <img src="/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg" alt=""
+                            <img src="/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg" alt=""
                                 class="p-2 w-65">
                         </div>
                         <div class="col-9 col-sm-11 col-md-11 promote-hignlight-icn2">
@@ -83,7 +83,7 @@
                     </div>
                     <div class="d-flex bg-white border-2 border rounded-top py-2 pb-0 resIcon ">
                         <div class="col-3 col-sm-1 col-md-1  text-center promote-hignlight-icn">
-                            <img src="/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg" alt="" class="p-2 w-65">
+                            <img src="/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg" alt="" class="p-2 w-65">
                         </div>
                         <div class="col-9 col-sm-9 col-md-9 promote-hignlight-icn2">
                             <p class="proAdTitle">Urgent Ad <span class="notmobBtn">- </span><a href="javascript:void(0)" class="urgentAdModal notmobBtn"

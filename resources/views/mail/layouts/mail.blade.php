@@ -24,7 +24,7 @@
                                                                   <tbody>
                                                                      <tr>
                                                                         <td width="100%" align="center" valign="bottom">
-                                                                           <img src="{{ config('global_variables.asset_url') }}/img/khojbrologoweb.png" width="200" height="60" style="display:block;position: relative;right:0px;top: px;" position="relative" class="CToWUd">
+                                                                           <img src="{{ config('global_variables.asset_url') }}/img/adpost.png" width="200" height="60" style="display:block;position: relative;right:0px;top: px;" position="relative" class="CToWUd">
                                                                         </td>
                                                                      </tr>
                                                                   </tbody>
@@ -61,7 +61,7 @@
                                           <tbody>
                                              <tr bgcolor="#ffffff">
                                                 <td align="right" style="padding:30px;text-align:center;"><font face="Zurich BT, Zurich Cn BT, Arial" color="#000000" style="font-size:13px; line-height: 30px;">This email is has been automatically sent. Do not reply to this message. Need help?
-                                                   Contact us at <a href="mailto:support@khojbro.com">support@khojbro.com</a><br>Copyright &copy; 2020-2022 Khojbro(TM). All rights reserved<br>Khojbro-#1 Classified</font>
+                                                   Contact us at <a href="mailto:support@adpost.me">support@adpost.me</a><br>Copyright &copy; 2020-2022 Adpost(TM). All rights reserved<br>Adpost-#1 Classified</font>
                                                 </td>
                                              </tr>
                                           </tbody>

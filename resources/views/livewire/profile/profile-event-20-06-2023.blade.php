@@ -20,7 +20,7 @@
             <ul>
                 <li>Share:</li>
                 <li>
-                    {{-- <div class="sharethis-inline-share-buttons"></div> --}}
+                    <!-- {{-- <div class="sharethis-inline-share-buttons"></div> --}} -->
                     <div class="button share-button facebook-share-button">share</div>
                     <div class="button share-button twitter-share-button">tweet</div>
                 </li>
@@ -37,35 +37,34 @@
             </ul> --}}
         </div>
         @if (Auth::check())
-            <button wire:click="$emit('openModal', 'modals.report-user', {{ json_encode(['user' => $user]) }})"
-                class="btn-reportad">Report User</button>
+        <button wire:click="$emit('openModal', 'modals.report-user', {{ json_encode(['user' => $user]) }})"
+            class="btn-reportad">Report User</button>
         @else
-            <a href="{{ route('login') }}" class="report-add-a"><button type="button" class="btn-reportad">Report
-                    User</button></a>
+        <a href="{{ route('login') }}" class="report-add-a"><button type="button" class="btn-reportad">Report
+                User</button></a>
         @endif
     </div>
     @if (isset($user['phone']) &&
-            !empty($user['phone']) &&
-            isset($user['phone_verified_at']) &&
-            !empty($user['phone_verified_at']))
-        <div class="contact-with mt-0 py-4">
-            <h5><span>Contact</span> {{ $user['name'] }}</h5>
-            <div class="contact-devices pt-2">
-                <a class="phone"
-                    @if ($phone == 'Telephone') href="#" wire:click.prevent="showTelephone()" @else href="tel:{{ str_replace('-', '', $phone) }}" @endif>
-                    <i class="fa-solid fa-phone-volume"></i>
-                    {{ $phone }}
-                </a>
-                @if (isset($user['phone']) && $user['isWhatsApp'] == 1)
-                    <a class="whats-app-handle"
-                        @if ($whatsAppNumber == 'Whatsapp') href="#" wire:click="showWhatsApp" @else
-                        href="https://api.whatsapp.com/send?phone=+91{{ str_replace('-', '', $user['phone']) }}&text={{ urlencode('Hi I saw your Ad on KhorBro' . $user['name'] . '') }}"
-                        target="_blank" @endif>
-                        <i class="icons_wt fa-brands fa-whatsapp"></i>
-                        {{ $whatsAppNumber }}
-                    </a>
-                @endif
-            </div>
+    !empty($user['phone']) &&
+    isset($user['phone_verified_at']) &&
+    !empty($user['phone_verified_at']))
+    <div class="contact-with mt-0 py-4">
+        <h5><span>Contact</span> {{ $user['name'] }}</h5>
+        <div class="contact-devices pt-2">
+            <a class="phone" @if ($phone=='Telephone' ) href="#" wire:click.prevent="showTelephone()" @else
+                href="tel:{{ str_replace('-', '', $phone) }}" @endif>
+                <i class="fa-solid fa-phone-volume"></i>
+                {{ $phone }}
+            </a>
+            @if (isset($user['phone']) && $user['isWhatsApp'] == 1)
+            <a class="whats-app-handle" @if ($whatsAppNumber=='Whatsapp' ) href="#" wire:click="showWhatsApp" @else
+                href="https://api.whatsapp.com/send?phone=+91{{ str_replace('-', '', $user['phone']) }}&text={{ urlencode('Hi I saw your Ad on Ad Post' . $user['name'] . '') }}"
+                target="_blank" @endif>
+                <i class="icons_wt fa-brands fa-whatsapp"></i>
+                {{ $whatsAppNumber }}
+            </a>
+            @endif
         </div>
+    </div>
     @endif
 </div>

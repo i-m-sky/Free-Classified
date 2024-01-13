@@ -8,7 +8,7 @@
         </button>
         <div class="row bg-white align-items-center p-2">
             <div class="col-12 col-md-6 col-sm-12 text-center order-2 order-md-1">
-                <img src="/public/img/Promote-Ad/urgent-ad-modal-khojbro.jpg" alt="" class="w-75 object-fit-none">
+                <img src="/public/img/Promote-Ad/urgent-ad-modal-adpost.jpg" alt="" class="w-75 object-fit-none">
             </div>
             <div class="col-12 col-md-6 col-sm-12 text-start order-1 order-md-2">
                 <h2 class="modelTitle">Mark your ad as urgent!</h2>

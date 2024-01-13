@@ -72,7 +72,7 @@
     display: block;
     width: auto;
     line-height: 45px;
-    background: #e65c00;
+    background: #ff8282;
     border-radius: 5px;
     color: #fff;
     text-align: left;
@@ -142,7 +142,7 @@
     margin-bottom: 2px;
   }
   .mobile-menu ul li a{display: block;color: #fff;line-height: 45px;padding: 0 20px;background: rgb(0 0 0 / 15%);}
-  .mobile-menu ul li a:hover{background-color: #e65c00;}
+  .mobile-menu ul li a:hover{background-color: #ff8282;}
   .overflowBody{overflow: hidden;}
 }
 @media only screen and (max-width: 500px){

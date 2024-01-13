@@ -100,7 +100,7 @@
   <div class="modal-dialog modal-dialog-centered modal-lg wallet-adon-popup" role="document">
     <div class="modal-content modalContent">
       <div class="modal-body">
-            <h3 style="text-align: center;">Khojbro Wallet</h3>
+            <h3 style="text-align: center;">Adpost Wallet</h3>
             <p id="modelParagraph2">Select how much you would want to add to your wallet.</p>
             <div class="transaction-list">
                 <div class="row modelBody col-sm-8 pricemenu-option">
@@ -132,7 +132,7 @@
                         <input type="checkbox" class="termsAndCond-checkbox">
                         <label class="term-cond-wallet">
                             I hereby accept the 
-                            <a href="#" class="termsAndCond-checkbox-link">Khojbro Term of Use</a> 
+                            <a href="#" class="termsAndCond-checkbox-link">Adpost Term of Use</a> 
                         </label>
                     </div>
                 </div>

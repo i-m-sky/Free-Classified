@@ -506,7 +506,7 @@
                                         @if (!empty($post->user))
                                             <div class="contact-person-details">
                                                 <div class="user-icon-profile-icn"><img class="login-img-pro"
-                                                        src="http://khojbro.com/public/storage/cms/userprofile/9_1677918191.jpg">
+                                                        src="/storage/cms/userprofile/9_1677918191.jpg">
                                                 </div>
                                                 {{-- <div class="contact-person-img"><i class="fa-solid fa-user"></i></div> --}}
                                                 <div class="contact-person-info">

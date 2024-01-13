@@ -107,11 +107,11 @@ li {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #e65c00;
+	background-color: #ff8282;
 	padding: 7px 12px 7px 42px;
 	border-radius: 30px;
 	color: #fff;
-	background: url(../img/top-icn.png) no-repeat 16% 50%, #e65c00;
+	background: url(../img/top-icn.png) no-repeat 16% 50%, #ff8282;
 	background-size: 20px;
 	font-size: 18px;
 	box-shadow: 2px 2px 3px rgb(0 0 0 / 30%);
@@ -287,7 +287,7 @@ li {
 }
 
 .content-box .sec-1-text .break-text {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .content-box .sec-1-text .q-symbol {
@@ -296,7 +296,7 @@ li {
 	left: 451px;
 	height: 100%;
 	width: 100%;
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .sec-1-para {
@@ -364,7 +364,7 @@ li {
 }
 
 .banner-card a:hover .banner-card-titles {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .banner-card .banner-card-titles {
@@ -451,7 +451,7 @@ li {
 }
 
 .location-heading span {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .location-heading::before {
@@ -461,7 +461,7 @@ li {
 	left: 0;
 	height: 3px;
 	width: 167px;
-	background: #e65c00;
+	background: #ff8282;
 }
 
 .acc__card {
@@ -563,7 +563,7 @@ li {
 }
 
 .option-title span {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .option-title::before {
@@ -573,12 +573,12 @@ li {
 	left: 0;
 	height: 3px;
 	width: 194px;
-	background: #e65c00;
+	background: #ff8282;
 }
 
 .more-option .more-title {
 	font-size: 30px;
-	color: #e65c00;
+	color: #ff8282;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -603,7 +603,7 @@ li {
 }*/
 .more-option .more-sub-title {
 	font-size: 30px;
-	color: #e65c00;
+	color: #ff8282;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
@@ -771,7 +771,7 @@ li {
 }
 
 .bread-crums-links ul li a:hover {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .bread-crums-links i {
@@ -779,7 +779,7 @@ li {
 }
 
 .bread-crums-links i:hover {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 /*------list-products------*/
@@ -858,7 +858,7 @@ li {
 }
 
 .box-1 ul li a:hover {
-	color: #e65c00
+	color: #ff8282
 }
 
 .box-1 li.view-more a {
@@ -1063,7 +1063,7 @@ label {
 	display: block;
 	font-size: 18px;
 	padding-bottom: 7px;
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .car-year input:focus {
@@ -1220,7 +1220,7 @@ label {
 }
 
 .location-gurgaon i {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .items-details {
@@ -1413,7 +1413,7 @@ button[disabled] {
 }
 
 .view-details ul li a:hover {
-	color: #e65c00;
+	color: #ff8282;
 	transition: 0.5s;
 }
 
@@ -1422,7 +1422,7 @@ button[disabled] {
 }
 
 .view-details i:hover {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .view-details-link {
@@ -1814,7 +1814,7 @@ button[disabled] {
 }
 
 .btn-submit-mail:hover {
-	background: #e65c00;
+	background: #ff8282;
 }
 
 .mail-section {
@@ -1829,8 +1829,8 @@ button[disabled] {
 
 .mail-section h5 span,
 .contact-with h5 span {
-	color: #e65c00;
-	border-bottom: 1px solid #e65c00
+	color: #ff8282;
+	border-bottom: 1px solid #ff8282
 }
 
 .stay-safe h5 {
@@ -1959,7 +1959,7 @@ button[disabled] {
 	line-height: 50px;
 	width: 100%;
 	color: #fff;
-	background: #e65c00;
+	background: #ff8282;
 }
 
 .cancel {
@@ -2058,7 +2058,7 @@ button[disabled] {
 	border: none;
 	width: 100%;
 	line-height: 45px;
-	background: #e65c00;
+	background: #ff8282;
 	color: #fff;
 	font-size: 18px;
 }
@@ -2184,7 +2184,7 @@ button[disabled] {
 .border-container h5 {
 	padding-left: 0;
 	padding-bottom: 30px;
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .post-title {
@@ -2251,7 +2251,7 @@ button[disabled] {
 }
 
 .btn-register {
-	background: #e65c00;
+	background: #ff8282;
 }
 
 /*---------show-result--------*/
@@ -2464,8 +2464,8 @@ button[disabled] {
 }
 
 .car-category input[type="checkbox"]:checked+label {
-	background: #e65c00;
-	border-color: #e65c00;
+	background: #ff8282;
+	border-color: #ff8282;
 	color: #fff;
 }
 
@@ -2776,7 +2776,7 @@ button[disabled] {
 
 .txt-lmt {
 	font-size: 14px;
-	color: #e65c00
+	color: #ff8282
 }
 
 /*.upload__btn:hover {
@@ -3067,7 +3067,7 @@ button[disabled] {
 
 .profile-links:hover {
 	background: #fff;
-	border-left: 5px solid #e65c00;
+	border-left: 5px solid #ff8282;
 	color: #666;
 }
 
@@ -3077,7 +3077,7 @@ button[disabled] {
 }*/
 
 .my-account {
-	color: #e65c00;
+	color: #ff8282;
 	font-size: 18px;
 }
 
@@ -3161,7 +3161,7 @@ button[disabled] {
 	text-align: center;
 	height: 40px;
 	width: 100%;
-	background: #e65c00;
+	background: #ff8282;
 	margin: 15px auto 0;
 	color: #fff;
 	line-height: 40px;
@@ -3191,7 +3191,7 @@ button[disabled] {
 	text-align: center;
 	height: 40px;
 	width: 200px;
-	background: #e65c00;
+	background: #ff8282;
 	margin: 15px auto 0;
 	color: #fff;
 	line-height: 40px;
@@ -3222,7 +3222,7 @@ button[disabled] {
 .rst-passwd-details label,
 input {
 	display: inline-block;
-	color: #e65c00;
+	color: #ff8282;
 	font-size: 16px;
 }
 
@@ -3278,9 +3278,9 @@ input {
 	background: #fff;
 	text-align: center;
 	color: #fff;
-	border: 1px solid #e65c00;
+	border: 1px solid #ff8282;
 	margin-left: 20px;
-	background: #e65c00;
+	background: #ff8282;
 	font-size: 14px;
 }
 
@@ -3528,7 +3528,7 @@ input {
 }
 
 .list-container .bread-crums a:hover {
-	color: #e65c00;
+	color: #ff8282;
 }
 
 .upload-image p {

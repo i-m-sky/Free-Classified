@@ -3,7 +3,7 @@
         <div class="wrapper">
             <div class="d-flex justify-content-between mt-35">
                 <div class="logo d-flex justify-content-between"><a class="logo_display" href="{{ route('welcome') }}"><img
-                            src="{{ config('global_variables.asset_url') }}/img/khojbrologoweb.png" alt="logo" /></a>
+                            src="{{ config('global_variables.asset_url') }}/img/adpost.png" alt="logo" /></a>
 
                 </div>
                 @if (Route::currentRouteName() == 'login' ||
@@ -64,7 +64,7 @@
                                                         d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
                                                 </svg>
                                             </span>
-                                            <p>Khojbro since {{ date('F j, Y', strtotime($user->created_at)) }}</p>
+                                            <p>Adpost since {{ date('F j, Y', strtotime($user->created_at)) }}</p>
                                         </div>
                                     </div>
                                 </div> --}}
@@ -140,14 +140,14 @@
                                 d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
                         </svg> --}}
                         {{ isset($user) && !empty($user) && !empty($user->email) ? $user->email : '' }}
-                        {{-- <p class="mt-1">Khojbro since 2023</p> --}}
+                        {{-- <p class="mt-1">Adpost since 2023</p> --}}
                     </span>
                 </div>
             </div>
         @endif
         @if (!Auth::check())
             <div class="top_nav_bar_des">
-                <a href="https://khojbro.com"><img src="http://khojbro.com/public/img/khojbrologoweb.png"
+                <a href="/"><img src="/img/adpost.png"
                         alt="logo" style="width:auto"></a>
             </div>
             <ul>

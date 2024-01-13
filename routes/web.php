@@ -3,7 +3,6 @@
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Artisan;
-
 use App\Http\Controllers\WelcomeController;
 use App\Http\Controllers\PostPreLoginController;
 use App\Http\Controllers\Members\PostController;

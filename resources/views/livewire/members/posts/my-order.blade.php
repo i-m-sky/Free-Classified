@@ -12,19 +12,19 @@
                             </div>
                             <div class="post-highlights">
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}" class="post--higlight-img">
+                                    <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}" class="post--higlight-img">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                      <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
@@ -43,19 +43,19 @@
                             </div>
                             <div class="post-highlights-mobile">
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}" class="post--higlight-img">
+                                    <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}" class="post--higlight-img">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                      <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
@@ -74,19 +74,19 @@
                             </div>
                             <div class="post-highlights">
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}" class="post--higlight-img">
+                                    <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}" class="post--higlight-img">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                      <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
@@ -105,19 +105,19 @@
                             </div>
                             <div class="post-highlights-mobile">
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}" class="post--higlight-img">
+                                    <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}" class="post--higlight-img">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                      <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
@@ -160,19 +160,19 @@
                         </div>
                         <div class="post-highlights">
                              <div class="orderPromoteImage">
-                                <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}">
+                                <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}">
                                 <div class="expiryDays">
                                     <span>15 days</span>
                                 </div>
                             </div>
                             <div class="orderPromoteImage">
-                                <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                  <div class="expiryDays">
                                     <span>15 days</span>
                                 </div>
                             </div>
                             <div class="orderPromoteImage">
-                                <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                  <div class="expiryDays">
                                     <span>15 days</span>
                                 </div>
@@ -195,19 +195,19 @@
                             </div>
                             <div class="post-highlights">
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}" class="post--higlight-img">
+                                    <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}" class="post--higlight-img">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                      <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
@@ -226,19 +226,19 @@
                             </div>
                             <div class="post-highlights-mobile">
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}" class="post--higlight-img">
+                                    <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}" class="post--higlight-img">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                      <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
@@ -261,19 +261,19 @@
                             </div>
                             <div class="post-highlights">
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}" class="post--higlight-img">
+                                    <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}" class="post--higlight-img">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                      <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
@@ -292,19 +292,19 @@
                             </div>
                             <div class="post-highlights-mobile">
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}" class="post--higlight-img">
+                                    <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}" class="post--higlight-img">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                      <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
@@ -327,19 +327,19 @@
                             </div>
                             <div class="post-highlights">
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}" class="post--higlight-img">
+                                    <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}" class="post--higlight-img">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                      <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
@@ -358,19 +358,19 @@
                             </div>
                             <div class="post-highlights-mobile">
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/topAd/top_ad_khojbro_100_100.svg')}}" class="post--higlight-img">
+                                    <img src="{{url('/public/img/svg/topAd/top_ad_adpost_100_100.svg')}}" class="post--higlight-img">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/highlightAd/highlight_ad_adpost_100_100.svg')}}">
                                     <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>
                                 </div>
                                 <div class="orderPromoteImage">
-                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_khojbro_100_100.svg')}}">
+                                    <img src="{{url('/public/img/svg/urgentAd/urgent_ad_adpost_100_100.svg')}}">
                                      <div class="expiryDays">
                                         <span>15 days</span>
                                     </div>

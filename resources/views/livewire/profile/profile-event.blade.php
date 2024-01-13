@@ -2,7 +2,7 @@
     $postUrl = Request::url(); 
     $facebookUrl = "https://www.facebook.com/sharer/sharer.php?u=".$postUrl;
     $twitterUrl = "http://twitter.com/share?url=".$postUrl;
-    $emailUrl = "mailto:?subject=khojbro.com&amp;&body=".$postUrl;
+    $emailUrl = "mailto:?subject=adpost.me&amp;&body=".$postUrl;
     $whatsappUrl = "whatsapp://send?text=".$postUrl;
 @endphp    
     
@@ -66,7 +66,7 @@
                 @if (isset($user['phone']) && $user['isWhatsApp'] == 1)
                     <a class="whats-app-handle"
                         @if ($whatsAppNumber == 'Whatsapp') href="#" wire:click="showWhatsApp" @else
-                        href="https://api.whatsapp.com/send?phone=+91{{ str_replace('-', '', $user['phone']) }}&text={{ urlencode('Hi I saw your Ad on KhorBro' . $user['name'] . '') }}"
+                        href="https://api.whatsapp.com/send?phone=+91{{ str_replace('-', '', $user['phone']) }}&text={{ urlencode('Hi I saw your Ad on Ad Post' . $user['name'] . '') }}"
                         target="_blank" @endif>
                         <i class="icons_wt fa-brands fa-whatsapp"></i>
                         {{ $whatsAppNumber }}

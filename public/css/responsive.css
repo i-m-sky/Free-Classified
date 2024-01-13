@@ -167,7 +167,7 @@
     display: none;
   }
   .resIcon {
-    background-image: linear-gradient(45deg, transparent 95%, #e65c00 95%);
+    background-image: linear-gradient(45deg, transparent 95%, #ff8282 95%);
     color: white;
   }
   .w-82 {
@@ -364,7 +364,7 @@
 
 @media only screen and (max-width: 767px) {
   .resIcon {
-    background-image: linear-gradient(45deg, transparent 93%, #e65c00 93%);
+    background-image: linear-gradient(45deg, transparent 93%, #ff8282 93%);
     color: white;
   }
 
@@ -387,7 +387,7 @@
   }
 
   .section-search {
-    margin-top: 107px;
+    margin-top: 127px;
   }
   #search-list-post {
     width: 100%;
@@ -547,7 +547,7 @@
 }
 @media only screen and (max-width: 639px) {
   .resIcon {
-    background-image: linear-gradient(45deg, transparent 92%, #e65c00 92%);
+    background-image: linear-gradient(45deg, transparent 92%, #ff8282 92%);
     color: white;
   }
   .modelDesc {
@@ -591,7 +591,7 @@
     margin-right: 5px;
   }
   .section-search {
-    margin-top: 90px;
+    margin-top: 110px;
   }
   .header {
     margin-top: 15px;
@@ -733,7 +733,7 @@
     width: 100%;
   }
   .resIcon {
-    background-image: linear-gradient(45deg, transparent 91%, #e65c00 91%);
+    background-image: linear-gradient(45deg, transparent 91%, #ff8282 91%);
     color: white;
   }
   .detail-form .details-flex-box .detail-about-product {
@@ -757,7 +757,7 @@
 
 @media only screen and (max-width: 500px) {
   .resIcon {
-    background-image: linear-gradient(45deg, transparent 90%, #e65c00 90%);
+    background-image: linear-gradient(45deg, transparent 90%, #ff8282 90%);
     color: white;
   }
   .advertisment-container {
@@ -1099,7 +1099,7 @@
 }
 @media only screen and (max-width: 375px) {
   .resIcon {
-    background-image: linear-gradient(45deg, transparent 88%, #e65c00 88%);
+    background-image: linear-gradient(45deg, transparent 88%, #ff8282 88%);
     color: white;
   }
   .banner-card {
@@ -1301,7 +1301,7 @@
 
 @media only screen and (max-width: 315px) {  
   .resIcon {
-    background-image: linear-gradient(45deg, transparent 85%, #e65c00 85%);
+    background-image: linear-gradient(45deg, transparent 85%, #ff8282 85%);
     color: white;
   }
   .room-sizes {
