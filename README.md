@@ -1,4 +1,4 @@
-# Free-Classified
+# Free classified-ads
 
 Welcome to the Free-Classified repository! This is the home of a community-driven classified ads platform where users can buy, sell, and connect for various services and products. Dive into the code that powers a user-friendly interface and robust backend, designed to make online transactions smooth and secure.
 
