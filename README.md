@@ -1,3 +1,18 @@
+# Free-Classified
+
+Welcome to the Free-Classified repository! This is the home of a community-driven classified ads platform where users can buy, sell, and connect for various services and products. Dive into the code that powers a user-friendly interface and robust backend, designed to make online transactions smooth and secure.
+
+## Features
+•  User account creation and management
+
+•  Product listing with detailed descriptions and images
+
+•  Search functionality with filters for categories and location
+
+•  Secure messaging system for buyer-seller communication
+
+•  Responsive design for a seamless experience across devices
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
